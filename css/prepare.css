@@ -1,0 +1,51 @@
+html, body {
+	position : fixed;
+	margin : 0;
+	padding : 0;
+	overflow : hidden;
+}
+
+#headerDiv {
+	position : relative;
+	font-family : cursive;
+	font-size : 1.3em;
+	text-align : center;
+	padding-top : 10px;
+}
+
+#mainDiv {
+	position : absolute;
+}
+
+#navyField {
+	position : absolute;
+	top : 0px;
+	left : 0px;
+}
+
+#readyBtn, #infoDiv, #rBtn, #backBtn, #rBtn div, #backBtn div {
+	position : absolute;
+}
+
+#rBtn div, #backBtn div {
+	text-align : center;
+}
+
+#readyBtn {
+	font-family : cursive;
+	letter-spacing : 7px;
+	padding : 0;
+}
+
+#infoDivText {
+	position : relative;
+	font-family : cursive;
+}
+
+#rBtn:hover, #backBtn:hover {
+	background-color : #E8E8E8;
+}
+
+#rBtn:active, #backBtn:active {
+	background-color : #66FF66;
+}

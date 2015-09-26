@@ -1,0 +1,84 @@
+html, body {
+	padding : 0;
+	margin : 0;
+	position : fixed;
+	overflow : hidden;
+}
+
+#headerDiv {
+	position : relative;
+	font-family : cursive;
+	font-size : 1.3em;
+	text-align : center;
+	padding-top : 10px;
+}
+
+#user1Div, #user2Div, #menuDiv, #infoDiv, #backDiv, #modalDiv, #modalWindow {
+	position : absolute;
+}
+
+#cnvDiv, #user1Header, #cnv1, #user2Header, #cnv2, #backDiv span, #modalText, #modalButton, #modalText div, #modalButton div {
+	position : relative;
+}
+
+#user1Header, #user2Header {
+	font-family : cursive;
+	font-size : 1em;
+	text-align : center;
+}
+
+#infoDiv {
+
+	font-family : cursive;
+	border : 1px solid black;
+	margin : 2px;
+
+}
+
+#backDiv {
+	border : 1px solid white;
+	margin : 2px;
+
+	font-family : cursive;
+	font-size : 1.2em;
+	text-align : center;
+}
+
+#backDiv:hover {
+	background-color : #E8E8E8;
+}
+
+#backDiv:active {
+	border : 1px solid black;
+}
+
+#modalDiv {
+	top : 0;
+	left : 0;
+
+	width : 100%;
+	height : 100%;
+
+	background-color : silver;
+	opacity : 0.2;
+}
+
+#modalWindow {
+	border : 2px solid black;
+	font-family : cursive;
+	background-color : white;
+	border-radius : 5px;
+}
+
+#modalText, #modalButton {
+	width : 100%;
+	text-align : center;
+}
+
+#modalButton:hover {
+	background-color : #E8E8E8;
+}
+
+#modalButton:active {
+	background-color : #66FF66;
+}

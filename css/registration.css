@@ -1,0 +1,47 @@
+*:not(input) {
+	font-family : cursive;
+}
+
+td {
+	text-align : right;
+}
+
+td.name {
+	width : 180px;
+}
+
+#windowDiv {
+	position : relative;
+}
+
+#headerText {
+	position : absolute;
+	font-size : 30px;
+}
+
+#headerDiv {
+	position : relative;
+
+	text-align : center;
+	height : 20%;
+	width : 100%;
+}
+
+#nameHeader {
+	position : relative;
+	margin-top : 5%;
+	text-align : center;
+	font-size : 1.2em;
+}
+
+#infoDiv {
+	position : relative;
+	text-align : center;
+	margin-top : 5%;
+
+	color : red;
+}
+
+input[type="text"], input[type="password"] {
+	font-family : monospace;
+}

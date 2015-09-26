@@ -1,0 +1,44 @@
+html, body {
+	position : absolute;
+	width : 100%;
+	height : 100%;
+
+	margin : 0;
+	padding : 0;
+}
+
+#headerDiv, #gameName {
+	position : relative;
+	width : 100%;
+
+	font-family : cursive;
+	font-size : 1.3em;
+	text-align : center;
+}
+
+#headerDiv {
+	padding-top : 10px;
+}
+
+#gameName {
+	padding-bottom : 15px;
+}
+
+#mainDiv {
+	position : relative;
+	width : 100%;
+}
+
+#statDiv {
+	position : relative;
+	text-align : center;
+	font-family : cursive;
+}
+
+#btnDiv {
+	position : absolute;
+	width : 100%;
+	margin-top : 20px;
+	text-align : center;
+	font-family : cursive;
+}
